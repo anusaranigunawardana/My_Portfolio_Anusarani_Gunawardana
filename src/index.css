@@ -1,0 +1,102 @@
+/* App.css */
+.portfolio-container {
+  background: var(--white, #FFF);
+  display: flex;
+  width: 1440px;
+  height: 6814px;
+  padding: 40px 0px;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Inter', sans-serif; /* Assuming Inter font from the design */
+}
+
+.navbar {
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 80px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.stats-container {
+  margin-bottom: 40px;
+}
+
+.stat-item h2 {
+  font-size: 72px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.stat-item p {
+  font-size: 18px;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.portfolio-btn, .hire-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.portfolio-btn {
+  background: #333;
+  color: white;
+  border: none;
+}
+
+.hire-btn {
+  background: transparent;
+  color: #333;
+  border: 2px solid #333;
+}
+
+.certification-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
