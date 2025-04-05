@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import vectorIcon from './assets/Portfolio Assets/Hello Vector 1.png'
 import vectorIcon2 from './assets/Portfolio Assets/Hello Vector 2.png'
+import ellipseImage from './assets/Portfolio Assets/Home Page Ellipse 1.png'
 
 
 function App() {
@@ -25,7 +26,6 @@ function App() {
         </div>
         <img src={vectorIcon} alt="vector" className="hello-vector-external" />
       </div>
-
        
         <h1 className="hero-title">
           I'm <span className="hero-name">Anusarani</span>,<br />
@@ -36,6 +36,14 @@ function App() {
           src={vectorIcon2} 
           alt="decorative corner element" 
           className="corner-vector" 
+        />
+        </section>
+
+        <section className ="home-ellipse">
+        <img 
+          src={ellipseImage} 
+          alt="background decoration" 
+          className="ellipse-image" 
         />
       </section>
     </div>
