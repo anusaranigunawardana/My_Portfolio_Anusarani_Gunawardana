@@ -4,7 +4,6 @@ import vectorIcon from './assets/Portfolio Assets/Hello Vector 1.png'
 import vectorIcon2 from './assets/Portfolio Assets/Hello Vector 2.png'
 import ellipseImage from './assets/Portfolio Assets/Home Page Ellipse 1.png'
 
-
 function App() {
   return (
     <div className="main-layout">

@@ -57,7 +57,7 @@
   align-items: center;
   gap: 10px;
   font-family: Lufga;
-  font-weight: 700;
+  font-weight: 300;
   color: var(--Gray-900, #ffff);
   transition: all 0.3s ease-in-out;
 }
@@ -115,7 +115,7 @@
 .hero-title {
   color: var(--Gray-900, #171717);
   text-align: center;
-  font-family: Urbanist;
+  font-family: Urbanist, serif;
   font-size: 95.566px;
   font-style: normal;
   font-weight: 600;
